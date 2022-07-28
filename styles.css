@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.learnit-text {
+    color:#777777;
+}
+
+.navbar-nav li a {
+    font-size: 0.875rem;
+}
+
+.carousel-caption h1 {
+    font-size: 3.4em;
+}
+
+.carousel-caption p {
+    font-size: 1.125rem;
+}
+
+@media only screen and (max-width: 992px) { 
+    .learnit-text {
+        font-size: 0.875rem;  
+    }
+    .card-title {
+        font-size: 1.25em;
+    }
+    .d-custom-block {
+        display:block;
+    }
+}
+
+
+@media only screen and (max-width: 768px) { 
+    .learnit-text {
+        font-size: 0.875rem;
+    }
+    .carousel-caption h1 {
+        font-size: 2.4em;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.875rem;
+    }
+    
+}
