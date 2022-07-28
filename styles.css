@@ -31,12 +31,13 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
+  
     .learnit-text {
         font-size: 0.875rem;
     }
     .carousel-caption h1 {
-        font-size: 2.4em;
+        font-size: 1.4em;
     }
     
     .carousel-caption p {
